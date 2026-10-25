@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-image: url("https://thebradhamter.github.io/Pokemon-TCG-Custom-Sets/background.png");
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+#page {
+    text-align: center;
+}
+
+#card {
+    width: 240px;
+    height: 332px;
+}
+
+/* Card Preview Overlay Styles */
+#card-preview-overlay {
+    /* fallback styles, most are set inline by JS */
+    animation: fadeInBg 0.3s;
+}
+@keyframes fadeInBg {
+    from { background: rgba(0,0,0,0); }
+    to { background: rgba(0,0,0,0.7); }
+}
+
+/* Set Iframe Overlay Styles */
+#set-iframe-overlay {
+    animation: fadeInBg 0.3s;
+}
